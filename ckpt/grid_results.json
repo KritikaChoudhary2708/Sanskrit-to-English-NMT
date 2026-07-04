@@ -1,0 +1,46 @@
+{
+ "A_base_v8k_d03": {
+  "devBLEU_400": 0.08361697551027981,
+  "best_epoch": 60,
+  "vocab": 8000,
+  "d_model": 256,
+  "nhead": 4,
+  "num_enc": 3,
+  "num_dec": 3,
+  "dim_ff": 1024,
+  "dropout": 0.3
+ },
+ "B_v8k_d02": {
+  "devBLEU_400": 0.09243446803989505,
+  "best_epoch": 48,
+  "vocab": 8000,
+  "d_model": 256,
+  "nhead": 4,
+  "num_enc": 3,
+  "num_dec": 3,
+  "dim_ff": 1024,
+  "dropout": 0.2
+ },
+ "C_v4k_d02": {
+  "devBLEU_400": 0.09309128309954205,
+  "best_epoch": 51,
+  "vocab": 4000,
+  "d_model": 256,
+  "nhead": 4,
+  "num_enc": 3,
+  "num_dec": 3,
+  "dim_ff": 1024,
+  "dropout": 0.2
+ },
+ "D_v4k_d03": {
+  "devBLEU_400": 0.08252675183678283,
+  "best_epoch": 45,
+  "vocab": 4000,
+  "d_model": 256,
+  "nhead": 4,
+  "num_enc": 3,
+  "num_dec": 3,
+  "dim_ff": 1024,
+  "dropout": 0.3
+ }
+}
